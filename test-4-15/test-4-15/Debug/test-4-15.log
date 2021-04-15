@@ -1,0 +1,3 @@
+﻿  test 4-15.c
+C:\Users\86199\source\repos\test-4-15\test-4-15\test 4-15.c(107): warning C4715: “Prime”: 不是所有的控件路径都返回值
+  test-4-15.vcxproj -> C:\Users\86199\source\repos\test-4-15\Debug\test-4-15.exe
