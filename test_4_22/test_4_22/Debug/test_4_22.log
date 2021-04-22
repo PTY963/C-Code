@@ -1,0 +1,3 @@
+﻿  test.c
+C:\Users\86199\source\repos\test_4_22\test_4_22\test.c(53,9): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“unsigned int *”
+  test_4_22.vcxproj -> C:\Users\86199\source\repos\test_4_22\Debug\test_4_22.exe
