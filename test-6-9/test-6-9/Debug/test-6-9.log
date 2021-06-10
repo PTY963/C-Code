@@ -1,0 +1,3 @@
+﻿  test.c
+C:\Users\86199\source\repos\test-6-9\test-6-9\test.c(203,9): warning C4133: “=”: 从“*”到“*”的类型不兼容
+  test-6-9.vcxproj -> C:\Users\86199\source\repos\test-6-9\Debug\test-6-9.exe
