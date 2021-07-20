@@ -214,3 +214,5 @@ void ExitContact(Contact* pc)
 	pc->sz = 0;
 	pc->capacity = 0;
 }
+
+
