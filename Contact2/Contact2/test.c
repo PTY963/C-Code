@@ -49,6 +49,7 @@ int main()
 			PrintContact(&con);
 			break;
 		case EXIT:
+			ExitContact(&con);
 			printf("�˳�ͨѶ¼\n");
 			break;
 		default:

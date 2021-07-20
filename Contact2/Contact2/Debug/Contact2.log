@@ -1,5 +1,5 @@
 ﻿  contact.c
-C:\Users\86199\source\repos\Contact2\Contact2\contact.c(104,35): warning C4028: 形参 1 与声明不同
+C:\Users\86199\C-Code\Contact2\Contact2\contact.c(157,35): warning C4028: 形参 1 与声明不同
   test.c
   正在生成代码...
-  Contact2.vcxproj -> C:\Users\86199\source\repos\Contact2\Debug\Contact2.exe
+  Contact2.vcxproj -> C:\Users\86199\C-Code\Contact2\Debug\Contact2.exe
