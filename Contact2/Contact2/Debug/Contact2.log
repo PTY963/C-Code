@@ -1,5 +1,4 @@
 ﻿  contact.c
-C:\Users\86199\C-Code\Contact2\Contact2\contact.c(157,35): warning C4028: 形参 1 与声明不同
-  test.c
-  正在生成代码...
+C:\Users\86199\C-Code\Contact2\Contact2\contact.c(57,1): warning C4133: “初始化”: 从“PeoInfo *”到“Contact *”的类型不兼容
+C:\Users\86199\C-Code\Contact2\Contact2\contact.c(190,35): warning C4028: 形参 1 与声明不同
   Contact2.vcxproj -> C:\Users\86199\C-Code\Contact2\Debug\Contact2.exe

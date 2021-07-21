@@ -1,7 +1,13 @@
 #define _CRT_SECURE_NO_WARNINGS 1
+//1.静态版
 //存放1000名好友的信息
 //信息： 姓名 性别  年龄  电话 住址
 //功能：增加 删除 查找 修改 显示
+
+//2.动态版
+//3.文件版本
+//程序退出的时候，保存联系人的信息
+//程序开始运行的时候，加载联系人的信息
 #include"contact.h"
 void menu()
 {
@@ -49,6 +55,8 @@ int main()
 			PrintContact(&con);
 			break;
 		case EXIT:
+			//保存联系人信息
+			SaveContact(&con);
 			ExitContact(&con);
 			printf("退出通讯录\n");
 			break;
