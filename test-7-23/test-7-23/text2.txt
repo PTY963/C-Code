@@ -1,0 +1,19 @@
+int main()
+{
+	int a = 10000;
+	FILE* pf = fopen("test.txt", "wb");
+	if (pf == NULL)
+	{
+		perror("fopen");
+		return 1;
+	}
+
+	//将内存中的数据，不加ASCII码值修饰，直接写到文件中 - 二进制文件
+	fwrite(&a, sizeof(int), 1, pf);
+	//0000 0000 0000 0000 0010 0111 0001 0000
+	//00 00 27 10
+	//10 27 00 00
+	fclose(pf);
+	pf = NULL;
+	return 0;
+}
